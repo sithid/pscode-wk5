@@ -1,0 +1,49 @@
+/*
+    Exercise 1:
+        Calculate the sum of two numbers.
+        Print result.
+ */
+
+print "Find the sum of two numbers."
+
+ask for num1
+ask for num2
+
+sum = num1 + num2
+print "The sum of {num1} and {num2} is {sum}."
+
+/*
+    Exercise 2:
+        Check if a number is odd or even.
+        Print result.
+
+print "Decide if the given number is odd or even."
+
+ask for num1
+
+even = ( ( num1 % 2 ) == 0 ) // boolean value true/false
+
+if even is true:
+    print "{num1} is an even number!"
+else if even is false:
+    print "{num1} is an odd number!"
+
+/*
+    Exercise 3: 
+        Write pseudo code that will perform the following:   
+            a) Read in 5 separate numbers.   
+            b) Calculate the average of the five numbers.
+ */
+
+print "Find the average of 5 given numbers."
+
+sum = 0
+
+loop 1 to 5 step 1:       // repeat 5 times
+    ask for number        
+    sum = sum + number         
+end
+
+average = sum / 5
+
+print "The average of these 5 numbers is {average}."
