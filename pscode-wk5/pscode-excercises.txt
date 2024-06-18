@@ -52,6 +52,7 @@ loop 1 to 5 step 1:
         min = number
     else if number is greater than max or max equals 0
         max = number
+end 
 
 average = sum / 5
 
