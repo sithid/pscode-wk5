@@ -56,6 +56,6 @@ end
 
 average = sum / 5
 
-print "The smallest number is {min}.  The largest number is {max}.
-print "The sum of these numbers is {sum}.
+print "The smallest number is {min}.  The largest number is {max}."
+print "The sum of these numbers is {sum}."
 print "The average of these numbers is {average}."
