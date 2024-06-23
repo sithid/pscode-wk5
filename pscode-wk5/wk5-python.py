@@ -89,3 +89,36 @@ else:
 print( f"The smallest number is {min}.  The largest number is {max}." )
 print( f"The sum of these 5 numbers is {sum}." )
 print( f"The average of these 5 numbers is {average}." )
+
+temp = input ("Continue? ( y / n ) ")
+
+if temp == 'n':
+    sys.exit(0)
+
+clear()
+
+# FizzBuzz is a challenge that involves writing code that labels numbers divisible by three as “Fizz,”
+# four as “Buzz” and numbers divisible by both as “FizzBuzz.” Here’s how to solve it in Python. 
+num = int(input ("Enter the number to end after: "))
+
+fizz = 0
+buzz = 0
+fizzbuzz = 0
+none = 0
+
+for i in range(num+1):
+    if i % 3 == 0:
+        if i %4 == 0:3
+            print(f"FizzBuzz")
+            fizzbuzz += 1
+        else:
+            print( f"Fizz")
+            fizz += 1
+    elif i % 4 == 0:
+        print( "Buzz")
+        buzz += 1
+    else:
+        print(f"{i}")
+        none += 1
+else:
+    print(f"Fizz:{fizz}, Buzz:{buzz}, FizzBuzz:{fizzbuzz}, None:{none}")
