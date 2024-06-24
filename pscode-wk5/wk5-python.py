@@ -84,7 +84,7 @@ for i in range(5):
     elif num > max or max == 0:
         max = num
 else:
-    average = sum / i
+    average = sum / 5
 
 print( f"The smallest number is {min}.  The largest number is {max}." )
 print( f"The sum of these 5 numbers is {sum}." )
@@ -108,7 +108,7 @@ none = 0
 
 for i in range(num+1):
     if i % 3 == 0:
-        if i %4 == 0:3
+        if i %4 == 0:
             print(f"FizzBuzz")
             fizzbuzz += 1
         else:
@@ -121,4 +121,4 @@ for i in range(num+1):
         print(f"{i}")
         none += 1
 else:
-    print(f"Fizz:{fizz}, Buzz:{buzz}, FizzBuzz:{fizzbuzz}, None:{none}")
+    print(f"Divisible by 3: {fizz}, Divisible by 4: {buzz}, Divisible by both: {fizzbuzz}, Divisible by neither: {none}")
