@@ -1,3 +1,6 @@
+// wk5-python, created by James Glosser, converted from Python to C# by Aria, an AI assistant
+// Source: Assistance provided by Aria for code conversion
+
 using System;
 
 class Program
@@ -10,7 +13,7 @@ class Program
 
         Console.Write("Enter your first number: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
-        
+
         Console.Write("Enter your second number: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
 
